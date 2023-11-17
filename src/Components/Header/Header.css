@@ -1,0 +1,19 @@
+.header-section {
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.nav-div {
+    padding-top: 10px;
+}
+
+
+.navbar a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+
+}

@@ -1,0 +1,22 @@
+.container {
+    padding-top: 20px;
+}
+
+.single-product {
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+
+
+.single-product img {
+    width: 286px;
+    height: 286px;
+    border-radius: 10px;
+}
+
+.small-info {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}

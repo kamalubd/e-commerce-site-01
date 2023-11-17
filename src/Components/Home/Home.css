@@ -1,0 +1,21 @@
+.top-banner img {
+    width: 1050px;
+    padding-top: 10px;
+}
+.promotion img {
+    width: 200px;
+    height: auto;
+}
+
+.promotionals {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    
+}
+
+.content {
+    border: 2px solid aqua;
+    border-radius: 20px;
+    width: 300px;
+}
