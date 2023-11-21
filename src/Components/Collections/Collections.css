@@ -1,3 +1,10 @@
+
+.products-page {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+}
+
+
 .products {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

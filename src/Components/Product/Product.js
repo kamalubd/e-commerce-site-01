@@ -3,9 +3,10 @@ import './Product.css'
 
 const Product = (props) => {
     const { name, price, seller, ratings, stock, img } = props.product;
-    console.log(props)
+    // console.log(props)
     return (
         <div className='container'>
+            <div className="main-content">
             <div className='single-product'>
                 <img src={img} alt="" />
                 <p>{name}</p>
@@ -15,9 +16,10 @@ const Product = (props) => {
                     <p><small>Brand: {seller}</small></p>
                     <p><small>Ratings: {ratings}</small></p>
                 </div>
-                <button>Add to Cart</button>
+                <button onClick={() => props.eventHandler(props.product)}>Add to Cart</button>
             </div>
 
+            </div>
 
         </div>
     );
